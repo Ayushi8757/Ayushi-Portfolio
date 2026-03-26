@@ -1,8 +1,11 @@
 import React from 'react'
+import RevealONScroll from './RevealONScroll'
 
 function Home() {
   return (
     <section id='home' className='min-h-screen flex items-center justify-center relative'>
+        
+            <RevealONScroll>
         <div className='text-center z-10 px-4'>
             <h1 className='text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent loading-right'>
                 Hi, I'm Kumari Ayushi</h1>
@@ -20,6 +23,7 @@ function Home() {
                     </a>
                 </div>
         </div>
+        </RevealONScroll>
     </section>
   )
 }
