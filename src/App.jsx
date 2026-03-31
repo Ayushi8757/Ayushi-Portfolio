@@ -7,6 +7,7 @@ import Home from './components/Home'
 import About from './components/About'
 import './index.css'
 import Project from './components/Project'
+import Contact from './components/Contact'
 function App() {
       const [isloading,setIsloaded]=useState(false)
       const[menuOpen,setMenuOpen]=useState(false)
@@ -19,6 +20,7 @@ function App() {
       <Home/>
       <About/>
       <Project/>
+      <Contact/>
       </div> 
     </>
   )
